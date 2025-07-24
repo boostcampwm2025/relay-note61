@@ -57,6 +57,7 @@
 - AI를 통해 나만의 체크포인트 점검하기: S025 이선호
 - AI 기반 미션 학습목표 기준 배경지식 점검 퀴즈 생성 및 풀이: J069 김준성
 -----------
+
 # AI를 통해 나만의 체크포인트 점검하기 
 마블 미션을 예시로 정했습니다.
 ``` swift
@@ -516,3 +517,26 @@ LLM이 제공해준 체크리스트를 참고하긴 했지만, 아주 조금만 
 
 왜냐하면 이번 주제와 너무 먼 관계에 있는 주제까지 알려주기 때문입니다.
 
+
+---
+
+**AI를 활용한 하루 감사일기와 회고 😇**
+
+6일차 회고
+
+<img width="1145" height="285" alt="image" src="https://gist.github.com/user-attachments/assets/d4286b5a-cbb2-4ed2-a9bb-37936a06d859" />
+
+7일차 회고
+
+<img width="1164" height="305" alt="image" src="https://gist.github.com/user-attachments/assets/d63ae177-f7b7-4fb3-8f1e-c842743bc19e" />
+
+8일차 회고
+
+<img width="1146" height="277" alt="image" src="https://gist.github.com/user-attachments/assets/e6559683-cea0-41b9-bbf3-8a9f79f35a78" />
+
+9일차 회고 
+
+<img width="1123" height="721" alt="image" src="https://gist.github.com/user-attachments/assets/1539f411-4045-4471-a894-30a069e8b543" />
+
+- 느낀점
+일주일 동안 AI를 활용해 회고와 감사일기를 작성하면서 느낀 점은, 무엇보다 피드백을 즉각적으로 받을 수 있다는 점이 가장 편리했다. 매번 문제를 마치고 나면 새벽이라 머리가 몽롱하고 글을 또렷하게 쓰기 어려웠는데, 그럴 때마다 AI가 맞춤법이나 오타를 바로잡아주어 훨씬 수월하게 글을 완성할 수 있었다. 또한 생각이 정리되지 않아 문장이 두서없을 때, 맥락에 맞게 내용을 다듬어주거나 자연스럽게 재구성해주는 기능도 큰 도움이 되었다. 덕분에 당시 내가 느낀 감정이나 회고를 보다 정확하게 표현할 수 있었고, 글로 남기는 과정이 더 이상 버겁지 않게 느껴졌다.  앞으로도 스스로를 돌아보는 이 시간을 꾸준히 이어가고 싶다는 생각이 들었다.
