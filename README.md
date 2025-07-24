@@ -372,6 +372,104 @@ mutex, spinlock, semaphore 등 다양한 락이 레이스 컨디션 해결에 �
 
 위와 같이 해설을 제공해줬습니다.
 
+## 체크리스트 추천 받기
+
+### 질문
+
+```
+내가 어떤 것들을 학습하면 좋을지 리스트를 알려줘/
+```
+
+### 답변
+
+```
+좋아, 지금 네 학습 목표와 답변 수준을 보면 OS, 동시성(concurrency), 병렬성(parallelism)에 대한 기초는 탄탄하게 잡혀 있어.
+이제 더 깊이 있고 실전적인 주제들로 확장해보는 걸 추천할게.
+
+⸻
+
+📚 추천 학습 주제 목록: OS + 병렬 처리 중심
+
+1. 프로세스 & 스레드 심화
+	•	프로세스 상태 전이 (New, Ready, Running, Waiting, Terminated)
+	•	문맥 교환(Context Switching)의 비용과 동작 방식
+	•	사용자 스레드 vs 커널 스레드
+	•	스레드 풀(Thread Pool) 개념과 구현 방식
+
+⸻
+
+2. 병렬 처리(Parallelism)와 동시성(Concurrency)
+	•	병렬성 vs 동시성 차이
+	•	동시성과 병렬성 모델 (Actor Model, CSP, Shared Memory Model)
+	•	Amdahl’s Law와 병렬화 한계
+	•	멀티코어 환경에서의 캐시 일관성(Coherency) 문제
+
+⸻
+
+3. 동기화(synchronization)와 경쟁 조건(race condition) 대응 기법
+	•	Mutex, Spinlock, Semaphore의 구조와 차이
+	•	Deadlock: 발생 조건(4가지), 예방/회피/탐지 기법
+	•	조건 변수(Condition Variable)와 모니터(Monitor)
+	•	락 없는(Lock-Free) 자료구조와 atomic 연산 (CAS, compareAndSwap)
+
+⸻
+
+4. 스케줄링(Scheduling)
+	•	CPU 스케줄링 알고리즘: FCFS, SJF, RR, MLFQ 등
+	•	스레드 우선순위와 starvation
+	•	리얼타임 스케줄링 정책 (RTOS 관점)
+
+⸻
+
+5. 메모리 모델과 가시성 문제
+	•	CPU 캐시와 false sharing
+	•	메모리 일관성(Memory Consistency Model)
+	•	happens-before 관계와 volatile, memory barrier
+	•	JavaScript, Swift, C++ 등의 메모리 모델 차이
+
+⸻
+
+6. 실습 기반 기술 학습 (언어/플랫폼별로)
+
+🧵 멀티스레딩 실습 언어 예시:
+	•	Swift: DispatchQueue, OperationQueue, Task, @MainActor
+	•	C++: std::thread, std::mutex, std::atomic, RAII 기반 동기화
+	•	Java: synchronized, ReentrantLock, ExecutorService, volatile
+	•	Rust: std::sync::Mutex, Arc, tokio
+
+⸻
+
+7. 도구와 디버깅 툴
+	•	스레드 디버깅 도구: lldb, gdb, Xcode Instruments
+	•	레이스 컨디션 검출 도구: ThreadSanitizer, Helgrind, TSAN
+	•	CPU & 메모리 프로파일링: htop, perf, Instruments, Xcode Organizer
+
+⸻
+
+8. 실제 사례 기반 분석
+	•	유명한 레이스 컨디션 사고 사례 (NASA, GitHub Actions, Java Memory Model 등)
+	•	멀티스레딩 버그 분석 리포트 읽기
+	•	리눅스 커널에서의 동기화 기법
+
+⸻
+
+✨ 네가 더 발전할 수 있는 방향
+	•	Swift 중심으로 간다면: GCD, async/await, structured concurrency, MainActor 등의 활용
+	•	시스템 레벨 관심 있다면: POSIX Thread (pthread), 시스템 콜, 커널 락, MMU 등
+	•	웹 백엔드도 한다면: Node.js의 이벤트 루프, 비동기 I/O 모델, 워커 스레드, cluster 모듈
+
+⸻
+
+필요하다면 위 목록을 로드맵 형식(기초 → 중급 → 고급)으로 정리해줄 수도 있어.
+또는 특정 주제에 대해 퀴즈나 요약 자료를 따로 만들어줄 수도 있고!
+
+어떤 방향으로 확장하고 싶어? 😎
+```
+
+생각보다 딥한 체크리스트를 제공해줘서 놀랐습니다.
+
+근데 너무 이번 미션의 본질과 떨어진다 생각이 듭니다.
+
 ## 후기
 
 개인적으로 문제가 너무 쉬워서, 난이도가 조금 높으면 좋을 것 같다는 생각이 들었습니다.
@@ -379,3 +477,42 @@ mutex, spinlock, semaphore 등 다양한 락이 레이스 컨디션 해결에 �
 `atomic`이라는 키워드만을 제공해줬는데, `atomic 연산`과 `lock`이 엄연히 다르다고 말해줘서,
 
 이 부분에 대해 복습하면 좋을 것 같다는 생각이 들었습니다.
+
+```
+# 배경지식 학습
+
+## 프로세스와 스레드
+
+[ ] 프로세스와 스레드의 차이에 대해 알아보기
+
+[ ] 프로세스의 상태 전이
+
+[ ] 사용자 스레드와 커널 스레드에 대해 알아보기
+
+[ ] 프로세스와 스레드 스케쥴링에 대해 알아보기
+
+[ ] atomic 연산에 대해 알아보기
+
+## 동기와 비동기
+
+[ ] 동기와 비동기의 차이에 대해 알아보기
+
+[ ] 비동기(동시성)와 멀티 스레드(병렬성)의 차이점
+
+[ ] 동기화, 데이터 경합에 대해 알아보기
+
+[ ] 경합의 대응 기법 알아보기
+
+[ ] 교착상태에 대해 알아보기
+
+## Javascript
+
+[ ] 자바스크립트에서의 비동기 작업에 대해 알아보기
+```
+
+제가 작성한 체크리스트의 초기 버전입니다.
+
+LLM이 제공해준 체크리스트를 참고하긴 했지만, 아주 조금만 참고했습니다.
+
+왜냐하면 이번 주제와 너무 먼 관계에 있는 주제까지 알려주기 때문입니다.
+
