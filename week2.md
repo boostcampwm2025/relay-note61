@@ -153,12 +153,12 @@ AI가 제안한 스트레칭/운동 중 하나를 따라 해보고
    - 퀘스트1 - AI유머 공유하기
    - 슬랙에서 활동하고 싶은데 어떤 내용을 공유해야할지 고민만하다가 단념하게 되었다. AI유머를 통해 가볍고 재미있는 메시지를 남겨보겠다.
    - 슬랙에 공유한 유머    
-   <img width="1826" height="1032" alt="image" src="https://gist.github.com/user-attachments/assets/78eb2bec-27a1-473d-8768-61bd4b1bcd35" />  
+   <img width="1826" height="1032" alt="Image" src="https://github.com/user-attachments/assets/40276e6c-43fb-4f49-a867-d96fc1a794b1" />  
 
    - 재밌는 유머를 뽑아내는 과정  
-   <img width="1528" height="1176" alt="image" src="https://gist.github.com/user-attachments/assets/1652c20c-33c0-46a5-a719-44eaeb4e7dba" />  
-   <img width="1754" height="1004" alt="image" src="https://gist.github.com/user-attachments/assets/9f0b04c1-9a5a-4b23-993c-0af679e84ce4" />   
-   <img width="1508" height="798" alt="image" src="https://gist.github.com/user-attachments/assets/c0be6700-d773-41aa-a8d3-55d3db3a9d66" />  
+   <img width="1528" height="1176" alt="Image" src="https://github.com/user-attachments/assets/eb994d85-b44f-451e-b827-504297987c34" />
+   <img width="1" height="1" alt="Image" src="https://github.com/user-attachments/assets/f340d24a-b282-4d7c-adbc-4f08f40975b8" />  
+   <img width="1754" height="1004" alt="Image" src="https://github.com/user-attachments/assets/002846db-7cd6-49f7-9f73-267966c963f3" />
 
    AI는 생각보다 재미있는 유머를 제공해주지 못한다. GPT-4o는 정말 재미가 없었을 뿐만 아니라 이해가 되지 않는 최악의 유머를 제공한다.  
    claude Sonnet4와 deepseek는 이해는 되지만 대부분 재미가 없었다.  
