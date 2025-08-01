@@ -152,6 +152,19 @@ AI가 제안한 스트레칭/운동 중 하나를 따라 해보고
 - `J001_강내원`
    - 퀘스트1 - AI유머 공유하기
    - 슬랙에서 활동하고 싶은데 어떤 내용을 공유해야할지 고민만하다가 단념하게 되었다. AI유머를 통해 가볍고 재미있는 메시지를 남겨보겠다.
+   - 슬랙에 공유한 유머    
+   <img width="913" height="516" alt="image" src="https://gist.github.com/user-attachments/assets/c6451842-df54-446d-b488-a82c05a2c671" />  
+
+   - 재밌는 유머를 뽑아내는 과정  
+   <img width="764" height="588" alt="image" src="https://gist.github.com/user-attachments/assets/4349abe3-1ea2-4efd-9189-c9609826aa44" />  
+   <img width="754" height="399" alt="image" src="https://gist.github.com/user-attachments/assets/2b0158e4-d4f2-42b2-af8f-a3b1c00f130f" />  
+   <img width="877" height="502" alt="image" src="https://gist.github.com/user-attachments/assets/83c97c3f-832b-4fb5-9384-9264bb175fe9" />  
+
+   AI는 생각보다 재미있는 유머를 제공해주지 못한다. GPT-4o는 정말 재미가 없었을 뿐만 아니라 이해가 되지 않는 최악의 유머를 제공한다.  
+   claude Sonnet4와 deepseek는 이해는 되지만 대부분 재미가 없었다.  
+   LLM을 사용해 웃음을 얻어가는 것은 쉽지않아보인다.  
+   슬랙에 공유된 내용으로 보아 이미지를 뽑아내는 방식으로 한다면 비교적 웃음을 얻기 쉽지 않을까.
+
 - `J086_김훈기`
   - 퀘스트4 - 신체 부위별 스트레칭 추천받기  
     장시간 의자에 앉아 개발을 하다보니 건강 관리를 위해 스트레칭이 필요하다고 판단하여 다음의 퀘스트를 선택하였다  
